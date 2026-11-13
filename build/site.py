@@ -168,6 +168,9 @@ STORIES = [
     standfirst="Many Bengaluru children study Kannada as a third language, and most of their parents can’t check a single answer. Kali Kannada takes a child from the school chapter to a marked, handwritten exam paper.",
     meta=[("Type","Personal product, live beta"),("Role","Sole founder-builder"),("Year","2026")],
     actions=[("Try Kali Kannada ↗","https://kali-kannada.vercel.app"),("Code ↗","https://github.com/hemz29/Kali_Kannada")],
+    cover_img="kali-kannada-cover.webp",
+    images=[("kali-kannada-home.webp","Kali Kannada home page: Kannada practice for your child, with progress you can follow","The front door: start free, no sign-up, with trust signals parents asked for."),
+            ("kali-kannada-dashboard.webp","Kali Kannada learner dashboard with lessons, practice tests and an exam-readiness gauge","The learner’s dashboard: chapters, grammar, school-format tests and an exam-readiness estimate.")],
     facts=[("17","parents surveyed before building"),
            ("7.7/10","average recommendation score in the pilot"),
            ("1st","to have the child confirm the handwriting reading before marking")],
@@ -346,8 +349,12 @@ def foot():
 def card(s, depth=0):
     up = "../" * depth
     tint = " tint" if s.get("tint") else ""
+    if s.get("cover_img"):
+        cover = f'<div class="cover img"><img src="{up}assets/img/{s["cover_img"]}" alt="" loading="lazy"><span class="badge">{escape(s["badge"])}</span></div>'
+    else:
+        cover = f'<div class="cover{tint}"><span class="badge">{escape(s["badge"])}</span><div class="stat">{escape(s["stat"])}</div><div class="cap">{escape(s["cap"])}</div></div>'
     return f"""<a class="card" href="{up}projects/{s['slug']}.html" data-tags="{s['tags']}">
-  <div class="cover{tint}"><span class="badge">{escape(s['badge'])}</span><div class="stat">{escape(s['stat'])}</div><div class="cap">{escape(s['cap'])}</div></div>
+  {cover}
   <div class="kicker">{escape(s['kicker'])}</div>
   <h3>{escape(s['title'])}</h3>
   <p>{escape(s['card'])}</p>
@@ -438,6 +445,8 @@ def page(s):
     meta = "".join(f"<div><dt>{escape(k)}</dt><dd>{escape(v)}</dd></div>" for k,v in s["meta"])
     acts = "".join(f'<a class="btn {"solid" if j==0 else ""}" href="{u}" target="_blank" rel="noopener">{escape(t)}</a>' for j,(t,u) in enumerate(s["actions"]))
     facts = "".join(f"<div><b>{escape(a)}</b><span>{escape(b)}</span></div>" for a,b in s["facts"])
+    shots = "".join(f'<figure><img src="../assets/img/{src}" alt="{escape(alt)}" loading="lazy"><figcaption>{escape(cap)}</figcaption></figure>' for src,alt,cap in s.get("images",[]))
+    gallery = f'<div class="shots">{shots}</div>' if shots else ""
     return head(f"{s['title']} · {NAME}", s["standfirst"], 1) + f"""
 <main id="main">
 <div class="wrap">
@@ -450,6 +459,7 @@ def page(s):
   <div class="meta"><dl>{meta}</dl>{f'<div class="btns">{acts}</div>' if acts else ''}</div>
   </header>
   <div class="facts">{facts}</div>
+  {gallery}
   <article class="body">{s['body']}</article>
   <nav class="pager" aria-label="More stories">
     <a href="{prev['slug']}.html"><small>← Previous</small><span>{escape(prev['title'])}</span></a>

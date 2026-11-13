@@ -170,3 +170,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media print{.nav,.filters,.pager,.btns{display:none}}
+
+/* Screenshots */
+.cover.img{padding:0;background:#f2f2ef}
+.cover.img img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .4s}
+a.card:hover .cover.img img{transform:scale(1.02)}
+.shots{display:grid;gap:28px;margin:40px 0 8px}
+.shots figure{margin:0}
+.shots img{width:100%;border-radius:var(--radius);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.shots figcaption{font-size:.88rem;color:var(--muted);margin-top:10px}
+@media (min-width:901px){.shots{grid-template-columns:1fr 1fr}}
