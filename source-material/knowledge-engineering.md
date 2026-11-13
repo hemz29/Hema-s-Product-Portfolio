@@ -42,15 +42,18 @@ The Knowledge Engineering platform gathers the engineering knowledge scattered a
 
 **Pull quote:** "The grey boxes are a promise, not a claim."
 
-**Key priorities.**
-- **Prove it pays off.** Show, with a small set of pilot teams, that giving engineers instant access to the right knowledge gets features to customers faster and with less rework.
-- **Turn it into a platform the whole organisation can use.** Move from pilot to a dependable, secure service that every team and every stage of delivery can plug into.
+**My remit (Senior Technical Product Lead).**
+1. **Set the direction:** own the vision and roadmap, steered by business value.
+2. **Make value measurable:** define success (speed, quality, adoption) and report it in business terms.
+3. **Bridge business and engineering:** connect leadership, architects and delivery teams so the platform solves real problems and gets used.
 
-**My role as Senior Technical Product Lead.**
-- **Set the direction.** Own the vision and roadmap, and decide where the platform goes next based on the business value it delivers.
-- **Make the value measurable.** Define what success looks like, from speed and quality of delivery to adoption, and report progress in business terms.
-- **Bring business and engineering together.** Act as the bridge between leadership, architects and engineering teams, so the platform solves real problems and gets used.
+**Strategic priorities.**
+1. **Prove value early:** start where the pain is, which is slow requirements discovery and rework, and measure the gains before scaling. The first proof of value is a network-service cancellation journey.
+2. **Make it trustworthy:** answers that are sourced, current and permission-aware.
+3. **Build once, reuse everywhere:** one shared knowledge layer for every AI tool and team.
+4. **Fit the flow of work:** bring knowledge into the tools BAs, POs, architects and engineers already use.
+5. **Keep knowledge alive:** capture decisions as they happen, so the platform grows more valuable over time.
 
-[Drafted by Claude from the slide. Hema to edit.]
+[Agreed with Hema, 13 Nov 2026. Public version: internal pilot names removed.]
 
 **Visual:** redraw the four layers as a simple editorial diagram in the site's own style. Never reuse the internal slide.
