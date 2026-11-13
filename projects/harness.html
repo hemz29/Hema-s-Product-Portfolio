@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I built my own AI workbench to see what the models see · Hema Vadali</title>
+<meta name="description" content="Harness puts Claude and Gemini side by side, grounds them in my documents, emails and live web search, and shows exactly what context each answer was built from.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="I built my own AI workbench to see what the models see · Hema Vadali">
+<meta property="og:description" content="Harness puts Claude and Gemini side by side, grounds them in my documents, emails and live web search, and shows exactly what context each answer was built from.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f6f5c'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='white' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="../index.html">Hema Vadali</a>
+  <nav class="links" aria-label="Main">
+    <a href="../index.html#work">Work</a><a href="../index.html#how">How I work</a><a class="cta" href="../index.html#contact">Get in touch</a>
+  </nav>
+</div></header>
+
+<main id="main">
+<div class="wrap">
+  <header class="article-head"><div class="inner">
+    <a class="back" href="../index.html#work">← All stories</a>
+    <div class="eyebrow"><i></i>AI · Personal tooling</div>
+    <h1>I built my own AI workbench to see what the models see</h1>
+    <p class="standfirst">Harness puts Claude and Gemini side by side, grounds them in my documents, emails and live web search, and shows exactly what context each answer was built from.</p>
+  </div>
+  <div class="meta"><dl><div><dt>Type</dt><dd>Personal build</dd></div><div><dt>Stack</dt><dd>React, Vite, Claude and Gemini APIs, Tavily</dd></div><div><dt>Year</dt><dd>2026</dd></div></dl><div class="btns"><a class="btn solid" href="https://github.com/hemz29/Harness-chatbot" target="_blank" rel="noopener">View the code ↗</a></div></div>
+  </header>
+  <div class="facts"><div><b>3</b><span>grounding sources: documents, email threads, live search</span></div><div><b>0</b><span>hidden context: an inspector shows size and truncation</span></div><div><b>Local</b><span>keys and history stay in the browser</span></div></div>
+  <article class="body">
+<h2>Why build one</h2>
+<p>As a product person working on RAG systems, I wanted to feel the trade-offs rather than read about them. What happens to an answer when a document gets truncated? When search is on or off? When the same question goes to two different models?</p>
+<h2>What it does</h2>
+<ul>
+<li><strong>Two models, one thread.</strong> Ask Claude or Gemini, or compare their answers to the same prompt.</li>
+<li><strong>Grounded on demand.</strong> Attach a document, paste an email thread to draft a reply, or switch on live web search.</li>
+<li><strong>Nothing hidden.</strong> A context inspector shows every piece of attached context, its size in tokens and whether it was truncated. Each reply shows the model, latency and estimated tokens.</li>
+<li><strong>My keys, my machine.</strong> API keys and chat history stay in the browser.</li>
+</ul>
+<blockquote>If you can’t see the context, you can’t trust the answer.</blockquote>
+<h2>What’s next</h2>
+<p>Connecting it to the apps I use every day (calendar, mail and notes) so it becomes a true personal assistant, plus more model adapters and voice input.</p>
+</article>
+  <nav class="pager" aria-label="More stories">
+    <a href="colleague-assist.html"><small>← Previous</small><span>An AI that gathers the evidence, and leaves the judgement to the manager</span></a>
+    <a class="next" href="sathi.html"><small>Next →</small><span>Teaching India’s grandparents to spot a scam before it spots them</span></a>
+  </nav>
+</div>
+</main>
+<footer><div class="wrap"><span>© 2026 Hema Vadali</span><span><a class="ulink" href="mailto:hemlata.v.29@gmail.com">Email</a> &nbsp;·&nbsp; <a class="ulink" href="https://www.linkedin.com/in/hemlata-vadali" target="_blank" rel="noopener">LinkedIn ↗</a></span></div></footer>
+<script>
+(function(){var n=document.querySelector('.nav');function s(){n.classList.toggle('scrolled',window.scrollY>8)}s();addEventListener('scroll',s,{passive:true});})();
+</script>
+</body>
+</html>
