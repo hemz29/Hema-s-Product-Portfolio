@@ -180,3 +180,4 @@ a.card:hover .cover.img img{transform:scale(1.02)}
 .shots img{width:100%;border-radius:var(--radius);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .shots figcaption{font-size:.88rem;color:var(--muted);margin-top:10px}
 @media (min-width:901px){.shots{grid-template-columns:1fr 1fr}}
+.shots figure:only-child{grid-column:1/-1}
