@@ -39,6 +39,15 @@ Source: an internal slide Hema shared on 13 Nov 2026 ("Knowledge Platform capabi
 
 **Pull quote:** "The grey boxes are a promise, not a claim."
 
-**What I'm focusing on first.** [TODO: Hema, your first-90-days priorities, e.g. pilot success criteria, how retrieval quality is evaluated, adoption with engineering teams.]
+**Key priorities.**
+- **Prove value in the pilot.** Get the shared context broker to return trusted, cited context from the first two sources into requirements discovery and design, and show a measurable drop in discovery hand-offs and clarification loops.
+- **Build for scale from day one.** Retrieval-quality evals, permission-aware access and a repeatable pattern for onboarding new sources. That way the move from sandbox to production, and from two lifecycle stages to six, adds use cases without rework.
+
+**My role as product lead.**
+- **Own the vision, roadmap and sequencing.** Decide which sources and lifecycle stages come next based on pilot evidence, and keep the roadmap honest about what is live and what is still intended.
+- **Define what "working" means.** Turn the faster/better/reusable indicators into concrete metrics and retrieval-quality evals, and set the pilot success criteria that gate productisation.
+- **Connect the people around it.** Run discovery with pilot engineering teams, align architects and stakeholders on the platform model, and turn feedback into a prioritised backlog that drives adoption.
+
+[Drafted by Claude from the slide. Hema to edit.]
 
 **Visual:** redraw the four layers as a simple editorial diagram in the site's own style. Never reuse the internal slide.
