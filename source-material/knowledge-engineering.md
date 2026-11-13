@@ -3,6 +3,9 @@
 Source: an internal slide Hema shared on 13 Nov 2026 ("Knowledge Platform capability flow", marked current focus). The slide itself is **not** stored in this repo.
 **Disclosure rule:** generic names only. Say "a large UK telco", never the company. Call the context layer "a shared context broker" and the design capability "a design assistant". No pilot team names.
 
+## What it is (1–2 sentences)
+The Knowledge Engineering platform gathers the engineering knowledge scattered across a large organisation (wiki pages, work-tracker stories, documents, meeting transcripts and people's know-how) into one shared, reusable context layer. AI capabilities across the product lifecycle, starting with requirements discovery and design, draw on that layer so teams deliver features faster, with fewer hand-offs and less rework.
+
 ## Key facts to use
 - **Hema's role:** product lead, started in Nov 2026.
 - **Thesis:** scattered engineering knowledge is progressively distilled into reusable context, then into applied capabilities, then into measurable outcomes.
