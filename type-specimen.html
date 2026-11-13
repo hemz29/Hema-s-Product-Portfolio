@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Type Specimen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Spectral:ital,wght@0,400;0,600;1,400&family=Azeret+Mono:wght@400;600&family=Gloock&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Martian+Mono:wght@400;600&family=Young+Serif&family=Familjen+Grotesk:ital,wght@0,400;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f1e7; --ink:#1b1a17; --muted:#6b655a; --rule:#1b1a17;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --paper:#17160f; --ink:#ede6d6; --muted:#a39b8a; --rule:#ede6d6; }
+}
+:root[data-theme="dark"]{ --paper:#17160f; --ink:#ede6d6; --muted:#a39b8a; --rule:#ede6d6; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);padding:32px 16px 64px}
+.intro{max-width:1100px;margin:0 auto 40px;font:15px/1.6 ui-monospace,monospace;color:var(--muted)}
+.intro b{color:var(--ink)}
+.spec{max-width:1100px;margin:0 auto 72px;border-top:3px double var(--rule);padding-top:20px}
+.label{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font:12px/1.4 ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:28px}
+.label b{color:var(--accent)}
+.mast{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:10px}
+.mast h1{margin:0;line-height:.9;font-size:clamp(2.6rem,8vw,5.4rem)}
+.meta{font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;margin-top:28px}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.lead h2{font-size:clamp(2rem,5vw,3.4rem);line-height:1.02;margin:10px 0 14px}
+.stand{font-size:1.25rem;line-height:1.45;color:var(--muted);margin:0 0 18px}
+.body{font-size:1.08rem;line-height:1.7;margin:0}
+.body::first-letter{float:left;font-size:4.2em;line-height:.85;padding:4px 10px 0 0;color:var(--accent)}
+.side{border-left:1px solid var(--rule);padding-left:28px}
+.side h3{font-size:1.5rem;line-height:1.15;margin:8px 0 8px}
+.side p{margin:0 0 22px;color:var(--muted);line-height:1.55}
+.side hr{border:0;border-top:1px solid var(--rule);margin:0 0 22px;opacity:.3}
+blockquote{margin:28px 0 0;padding:16px 0 0;border-top:2px solid var(--accent);font-size:1.6rem;line-height:1.25;font-style:italic}
+.btn{display:inline-block;margin-top:20px;padding:10px 16px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.btn:hover{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.side{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}}
+
+/* A */
+.a{--accent:#c8361b}
+.a .mast h1,.a h2,.a h3,.a blockquote{font-family:"Bodoni Moda",serif;font-weight:700}
+.a .mast h1{font-style:italic;font-weight:500}
+.a blockquote{font-weight:500}
+.a .stand,.a .body,.a .side p{font-family:Spectral,serif}
+.a .meta,.a .kicker,.a .btn{font-family:"Azeret Mono",monospace}
+.a .body::first-letter{font-family:"Bodoni Moda",serif}
+/* B */
+.b{--accent:#24614a}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .b{--accent:#5fb08d}}
+:root[data-theme="dark"] .b{--accent:#5fb08d}
+.b .mast h1,.b h2,.b h3,.b blockquote,.b .body::first-letter{font-family:Gloock,serif;font-weight:400}
+.b .stand,.b .body,.b .side p{font-family:Literata,serif}
+.b .meta,.b .kicker,.b .btn{font-family:"Martian Mono",monospace;font-size:11px}
+/* C */
+.c{--accent:#b06f12}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .c{--accent:#e0a043}}
+:root[data-theme="dark"] .c{--accent:#e0a043}
+.c .mast h1,.c h2,.c h3,.c blockquote,.c .body::first-letter{font-family:"Young Serif",serif;font-weight:400}
+.c blockquote{font-style:normal}
+.c .stand,.c .body,.c .side p{font-family:"Familjen Grotesk",sans-serif}
+.c .meta,.c .kicker,.c .btn{font-family:"Courier Prime",monospace;font-size:13px}
+</style>
+</head>
+<body>
+
+<p class="intro"><b>Type specimen: pick a direction.</b> Each option shows the same front-page fragment. The paper colour, rules, drop cap and layout are shared. Only the three typefaces and the accent colour change. The masthead name and the copy are placeholders. You can mix, e.g. "B's fonts with A's red".</p>
+
+<section class="spec a">
+  <div class="label"><span><b>Option A</b> · Classic editorial</span><span>Bodoni Moda / Spectral / Azeret Mono · vermilion</span></div>
+  <div class="mast"><h1>The Vadali Review</h1><span class="meta">Issue Nº 01 · November 2026 · Bengaluru</span></div>
+  <div class="grid">
+    <article class="lead">
+      <div class="kicker">Society · Cyber safety</div>
+      <h2>Teaching India’s grandparents to spot a scam before it spots them</h2>
+      <p class="stand">Sathi turns digital-safety advice into short, familiar lessons for senior citizens. It is built around how they actually use their phones.</p>
+      <p class="body">Every week, someone’s parent gets a call from a “bank officer” who already knows their name. Sathi starts from that moment, not from a glossary of jargon, and walks through what to do next in the language they think in.</p>
+      <blockquote>“Safety advice fails when it is written for the people who already feel safe.”</blockquote>
+      <a class="btn" href="#">Try Sathi →</a>
+    </article>
+    <aside class="side">
+      <div class="kicker">AI · PRD</div>
+      <h3>An agentic assistant for fairer performance reviews</h3>
+      <p>Colleague Assist gathers evidence so managers can spend their time on judgement.</p>
+      <hr>
+      <div class="kicker">Learning</div>
+      <h3>Kannada exams, without the dread</h3>
+      <p>Kali Kannada gives non-Kannadiga families visible confidence before exam day.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="spec b">
+  <div class="label"><span><b>Option B</b> · Warm literary</span><span>Gloock / Literata / Martian Mono · deep green</span></div>
+  <div class="mast"><h1>The Vadali Review</h1><span class="meta">Issue Nº 01 · November 2026 · Bengaluru</span></div>
+  <div class="grid">
+    <article class="lead">
+      <div class="kicker">Society · Cyber safety</div>
+      <h2>Teaching India’s grandparents to spot a scam before it spots them</h2>
+      <p class="stand">Sathi turns digital-safety advice into short, familiar lessons for senior citizens. It is built around how they actually use their phones.</p>
+      <p class="body">Every week, someone’s parent gets a call from a “bank officer” who already knows their name. Sathi starts from that moment, not from a glossary of jargon, and walks through what to do next in the language they think in.</p>
+      <blockquote>“Safety advice fails when it is written for the people who already feel safe.”</blockquote>
+      <a class="btn" href="#">Try Sathi →</a>
+    </article>
+    <aside class="side">
+      <div class="kicker">AI · PRD</div>
+      <h3>An agentic assistant for fairer performance reviews</h3>
+      <p>Colleague Assist gathers evidence so managers can spend their time on judgement.</p>
+      <hr>
+      <div class="kicker">Learning</div>
+      <h3>Kannada exams, without the dread</h3>
+      <p>Kali Kannada gives non-Kannadiga families visible confidence before exam day.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="spec c">
+  <div class="label"><span><b>Option C</b> · Modern contrast</span><span>Young Serif / Familjen Grotesk / Courier Prime · ochre</span></div>
+  <div class="mast"><h1>The Vadali Review</h1><span class="meta">Issue Nº 01 · November 2026 · Bengaluru</span></div>
+  <div class="grid">
+    <article class="lead">
+      <div class="kicker">Society · Cyber safety</div>
+      <h2>Teaching India’s grandparents to spot a scam before it spots them</h2>
+      <p class="stand">Sathi turns digital-safety advice into short, familiar lessons for senior citizens. It is built around how they actually use their phones.</p>
+      <p class="body">Every week, someone’s parent gets a call from a “bank officer” who already knows their name. Sathi starts from that moment, not from a glossary of jargon, and walks through what to do next in the language they think in.</p>
+      <blockquote>“Safety advice fails when it is written for the people who already feel safe.”</blockquote>
+      <a class="btn" href="#">Try Sathi →</a>
+    </article>
+    <aside class="side">
+      <div class="kicker">AI · PRD</div>
+      <h3>An agentic assistant for fairer performance reviews</h3>
+      <p>Colleague Assist gathers evidence so managers can spend their time on judgement.</p>
+      <hr>
+      <div class="kicker">Learning</div>
+      <h3>Kannada exams, without the dread</h3>
+      <p>Kali Kannada gives non-Kannadiga families visible confidence before exam day.</p>
+    </aside>
+  </div>
+</section>
+
+</body>
+</html>
