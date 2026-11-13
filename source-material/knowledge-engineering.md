@@ -43,13 +43,13 @@ The Knowledge Engineering platform gathers the engineering knowledge scattered a
 **Pull quote:** "The grey boxes are a promise, not a claim."
 
 **Key priorities.**
-- **Prove value in the pilot.** Get the shared context broker to return trusted, cited context from the first two sources into requirements discovery and design, and show a measurable drop in discovery hand-offs and clarification loops.
-- **Build for scale from day one.** Retrieval-quality evals, permission-aware access and a repeatable pattern for onboarding new sources. That way the move from sandbox to production, and from two lifecycle stages to six, adds use cases without rework.
+- **Prove it pays off.** Show, with a small set of pilot teams, that giving engineers instant access to the right knowledge gets features to customers faster and with less rework.
+- **Turn it into a platform the whole organisation can use.** Move from pilot to a dependable, secure service that every team and every stage of delivery can plug into.
 
-**My role as product lead.**
-- **Own the vision, roadmap and sequencing.** Decide which sources and lifecycle stages come next based on pilot evidence, and keep the roadmap honest about what is live and what is still intended.
-- **Define what "working" means.** Turn the faster/better/reusable indicators into concrete metrics and retrieval-quality evals, and set the pilot success criteria that gate productisation.
-- **Connect the people around it.** Run discovery with pilot engineering teams, align architects and stakeholders on the platform model, and turn feedback into a prioritised backlog that drives adoption.
+**My role as Senior Technical Product Lead.**
+- **Set the direction.** Own the vision and roadmap, and decide where the platform goes next based on the business value it delivers.
+- **Make the value measurable.** Define what success looks like, from speed and quality of delivery to adoption, and report progress in business terms.
+- **Bring business and engineering together.** Act as the bridge between leadership, architects and engineering teams, so the platform solves real problems and gets used.
 
 [Drafted by Claude from the slide. Hema to edit.]
 
