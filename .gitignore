@@ -1,0 +1,8 @@
+# Raw source material stays local: the repo is public.
+source-material/*.pdf
+source-material/*.pptx
+source-material/*.docx
+source-material/*.png
+source-material/*.jpg
+source-material/*.jpeg
+source-material/*.webp
