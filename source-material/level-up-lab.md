@@ -16,7 +16,7 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 - **Anti-gaming and wellbeing:** 1 light-day token a week, a nudge after 3 swaps away from the same subject, a PIN-protected parent pause, and an exam-week setting.
 - **Report:** "Tell Mum how today went". The child sees the exact text before it's emailed to the parent. Unsent reports make the creature sleepy.
 - **Worksheets:** printable practice sheets, 25-mark unit tests and 80-mark papers built from textbook-based question banks with page-referenced answer keys.
-- **Accounts and privacy:** parents sign in by email code with no passwords, and children never need an email. Up to 6 children per family, cloud sync (Supabase) with offline support. The admin dashboard shows **usage numbers only**, and database rules block anyone, admins included, from reading families' notes or drawings. Full account deletion. **No ads, no third-party analytics, no web fonts, no AI.**
+- **Accounts and privacy:** parent sign-in by email code with no passwords; the child never needs an email. Cloud sync with offline support. **No AI, no tracking.** Built for my daughter for now.
 - **Engineering:** React + TypeScript, Zustand/IndexedDB, Vercel functions, Supabase. A pure, tested rules engine (74 unit tests). Every game number is tunable in one config file, to adjust after the trial week.
 - **Phase 2 (teased as locked rooms):** a music corner, chess, and a runner game.
 
