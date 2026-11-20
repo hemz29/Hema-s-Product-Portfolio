@@ -211,7 +211,7 @@ STORIES = [
             ("level-up-lab-rooms.webp","Level-Up Lab rooms: art studio, music corner, chess and sky runner, locked until today's gate","Rooms unlock only after today’s gate: a finished, logged block and the recall quiz.")],
     facts=[("1·3·7·21","day spaced-recall intervals"),
            ("0","progress ever lost: missed days only make the creature sleepy"),
-           ("No AI","no ads and no tracking; families’ notes stay private")],
+           ("No AI","no tracking; my daughter’s notes and drawings stay private")],
     body="""
 <h2>The problem</h2>
 <p>My daughter’s textbooks are not the problem. Nor are tutors or worksheets. The problem is the forty minutes after she says “I studied”, which can mean anything from real work to staring at an open book. I wanted something that builds the habit: a plan, focused blocks, honest reflection and spaced recall.</p>
@@ -224,10 +224,10 @@ STORIES = [
 <li><strong>Growth without punishment.</strong> Missed days make the creature sleepy, but progress is never lost. Consistency is judged over a forgiving five-of-seven-day window.</li>
 <li><strong>Mistakes earn rewards.</strong> Logging a slip earns play time, so kids learn which errors cost them most.</li>
 <li><strong>Kids tell their own story.</strong> The daily report to the parent is shown to the child word for word before it’s sent.</li>
-<li><strong>No AI, no ads, no tracking.</strong> Admins see usage numbers only, and database rules keep families’ notes private, even from the team.</li>
+<li><strong>No AI, no tracking.</strong> My daughter’s notes, drawings and daily reports stay private to our account.</li>
 </ul>
 <h2>What shipped</h2>
-<p>An auto-spread study plan built from the school’s own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and family accounts that sync and work offline. Every game number lives in one config file, ready to tune after the first trial week.</p>
+<p>An auto-spread study plan built from the school’s own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and an account that syncs across devices and works offline. Every game number lives in one config file, ready to tune after the first trial week.</p>
 """),
   dict(
     slug="myntra-returns", tags="apps",

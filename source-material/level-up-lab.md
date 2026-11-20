@@ -36,9 +36,9 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 - *Growth without punishment.* Missed days make the creature sleepy, but progress is never lost. Consistency is measured over a forgiving 5-of-7-day window.
 - *Mistakes earn rewards.* Logging a slip earns play time, so kids learn which kind of error costs them most.
 - *Kids tell their own story.* The daily report to the parent is shown to the child word for word before it's sent.
-- *No AI, no ads, no tracking.* Admins see usage numbers only, and database rules keep families' notes private even from the team.
+- *No AI, no tracking.* My daughter's notes, drawings and daily reports stay private to our account.
 
-**What shipped.** An auto-spread study plan built from the school's own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall at 1, 3, 7 and 21 days, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and multi-child family accounts that sync and work offline. Every game number lives in one config file, ready to tune after the first trial week.
+**What shipped.** An auto-spread study plan built from the school's own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall at 1, 3, 7 and 21 days, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and an account that syncs across devices and works offline. Every game number lives in one config file, ready to tune after the first trial week.
 
 **Pull quote:** "The reward depends on evidence of thinking, not on time spent."
 
