@@ -214,9 +214,9 @@ STORIES = [
            ("No AI","no tracking; my daughter’s notes and drawings stay private")],
     body="""
 <h2>The problem</h2>
-<p>My daughter’s textbooks are not the problem. Nor are tutors or worksheets. The problem is the forty minutes after she says “I studied”, which can mean anything from real work to staring at an open book. I wanted something that builds the habit: a plan, focused blocks, honest reflection and spaced recall.</p>
+<p>My daughter can’t yet self-regulate her studying: how long she needs to study, which portions to cover before a test, and when she has genuinely done enough. So the default became long, supervised sessions with her grandfather, and sometimes her dad, which she dreads. Left to herself, she would rather listen to music on Alexa, read Harry Potter or Keeper of the Lost Cities, draw in her favourite art diary, or play chess on Duolingo.</p>
 <h2>The bet</h2>
-<p>Don’t compete with content. Be the coach and the game layer around the child’s own books, and make the reward depend on evidence of thinking, not time spent.</p>
+<p>Stop competing with the things she loves and make them the reward. Level-Up Lab plans her portions and study time for her, and officially unlocks music, art and chess once the day’s study is genuinely done, instead of the other way round.</p>
 <blockquote>The reward depends on evidence of thinking, not on time spent.</blockquote>
 <h2>The decisions</h2>
 <ul>
