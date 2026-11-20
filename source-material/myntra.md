@@ -40,7 +40,7 @@ Walkthrough: https://www.loom.com/share/21982a6985fd459fb197fb85500e8a68
 
 **Choosing what to build.** I scored six ideas with RICE, from lighting-accurate photos to a personal AI avatar. Two went into the prototype:
 - *Return Transparency Indicator* (scored highest): every product shows its return rate (Low / Moderate / High) and the top reasons people sent it back. Support agents see the same data, so they can't brush off a legitimate return.
-- *Skin-tone slider:* adjust the model's complexion to see how a colour will look on you, not on a studio model.
+- *Skin-tone slider:* shift the model's skin tone closer to your own, so you can judge how a colour looks on someone like you rather than only on the original studio model. It changes the model, not a photo of you.
 
 **Measuring it honestly.** Primary: fewer returns. Secondary: more browsing of tier-2 brands. Guardrail: the badge will hurt sales of high-return products, which should be watched, not hidden. The biggest risk is customers not noticing it, so the first step is an A/B test of where it sits.
 
