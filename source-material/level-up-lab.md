@@ -8,7 +8,7 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 - **What it is:** an installable, laptop-first PWA that helps school kids build a consistent, careful study habit on their own. First built for a Grade 6 ICSE student (Hema's daughter).
 - **Core principle:** "The app does not teach content. It makes her show up, focus, work carefully and remember." The child studies from their own books, and the app is the coach and the game layer.
 - **Game layer:** choose a world (Emberwick Academy, Lumenwood Sanctuary, The Drift Isles), get an egg, and grow a creature through Egg → Hatchling → Juvenile → Teen → Adult → Mythic using Growth Points. It hatches after the first 2 gated blocks. Missed days only make the creature sleepy. **GP is never lost**, so there's no punishment loop. Consistency is a rolling 5-of-7-day window. Play time earned (15 min base, up to 40 min a day, 1-day carry-over) unlocks creative rooms like an art studio where kids can redraw their own creature.
-- **Plan builder:** 10 subjects and their chapters, each marked In portion / Probably / Not in portion, plus test dates. It auto-spreads a draft plan: max 3 blocks a day, Maths daily, revision touches for memory subjects, a Sunday "boss fight". Moved blocks survive a re-spread. Parents get a read-only "Want Mum to take a look?" view. Families can paste or upload the school's portion list.
+- **Plan builder:** 10 subjects and their chapters, each marked In portion / Probably / Not in portion, plus test dates. It auto-spreads a draft plan: max 3 blocks a day, Maths daily, revision touches for memory subjects, a Sunday "boss fight". Moved blocks survive a re-spread. Parents get a read-only "Want Mum to take a look?" view. The school's portion list can be pasted or uploaded.
 - **Daily session:** a recall quiz when one is due, then up to 3 blocks, a detective briefing, a 25-minute focus timer (abandoning a block doesn't count), and 5-minute breaks.
 - **"The gate" (the signature mechanic):** to finish a block, the child writes 5 takeaways (3 on a light day). Each needs ≥6 words and a concrete anchor: a name, number, year, place, "because", a unit, or a chapter key term. No pasting, no near-duplicates. The creature coaches gently when a point is vague. The aim is to stop "I studied" from meaning "I sat with the book open".
 - **Mistake log:** 5 categories, with bonus play time for logging slips, plus a notebook showing "which slip costs you most".
@@ -16,7 +16,7 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 - **Anti-gaming and wellbeing:** 1 light-day token a week, a nudge after 3 swaps away from the same subject, a PIN-protected parent pause, and an exam-week setting.
 - **Report:** "Tell Mum how today went". The child sees the exact text before it's emailed to the parent. Unsent reports make the creature sleepy.
 - **Worksheets:** printable practice sheets, 25-mark unit tests and 80-mark papers built from textbook-based question banks with page-referenced answer keys.
-- **Accounts and privacy:** parents sign in by email code with no passwords, and children never need an email. Up to 6 children per family, cloud sync (Supabase) with offline support. The admin dashboard shows **usage numbers only**, and database rules block anyone, admins included, from reading families' notes or drawings. Full account deletion. **No ads, no third-party analytics, no web fonts, no AI.**
+- **Accounts and privacy:** parent sign-in by email code with no passwords; the child never needs an email. Cloud sync with offline support. **No AI, no tracking.** Built for my daughter for now.
 - **Engineering:** React + TypeScript, Zustand/IndexedDB, Vercel functions, Supabase. A pure, tested rules engine (74 unit tests). Every game number is tunable in one config file, to adjust after the trial week.
 - **Phase 2 (teased as locked rooms):** a music corner, chess, and a runner game.
 
@@ -36,9 +36,9 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 - *Growth without punishment.* Missed days make the creature sleepy, but progress is never lost. Consistency is measured over a forgiving 5-of-7-day window.
 - *Mistakes earn rewards.* Logging a slip earns play time, so kids learn which kind of error costs them most.
 - *Kids tell their own story.* The daily report to the parent is shown to the child word for word before it's sent.
-- *No AI, no ads, no tracking.* Admins see usage numbers only, and database rules keep families' notes private even from the team.
+- *No AI, no tracking.* My daughter's notes, drawings and daily reports stay private to our account.
 
-**What shipped.** An auto-spread study plan built from the school's own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall at 1, 3, 7 and 21 days, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and multi-child family accounts that sync and work offline. Every game number lives in one config file, ready to tune after the first trial week.
+**What shipped.** An auto-spread study plan built from the school's own portion list, 25-minute focus blocks, the takeaway gate, a mistake log, spaced recall at 1, 3, 7 and 21 days, a creature that grows from egg to mythic across three worlds, an art studio, printable exam-style papers, and an account that syncs across devices and works offline. Every game number lives in one config file, ready to tune after the first trial week.
 
 **Pull quote:** "The reward depends on evidence of thinking, not on time spent."
 
