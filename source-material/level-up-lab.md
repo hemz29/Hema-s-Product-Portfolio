@@ -27,9 +27,9 @@ Earlier name in the PRD: "Raaga's Study Companion". **[TODO: Hema to share the P
 **Standfirst:** Most study apps add more content. Level-Up Lab assumes the textbook is fine, and the hard part is showing up, focusing and remembering. A creature grows only when the work is real.
 **Meta:** Personal project · Product, game design and build · 2026 · [Try Level-Up Lab →](https://levelup-lab.vercel.app)
 
-**The problem.** My daughter's textbooks are not the problem. Nor are tutors or a lack of worksheets. The problem is the forty minutes after she says "I studied", which can mean anything from real work to staring at an open book. I wanted something that builds the *habit*: a plan, focused blocks, honest reflection, and spaced recall.
+**The problem.** My daughter can't yet self-regulate her studying: how long she needs to study, which portions to cover before a test, and when she has genuinely done enough. So the default became long, supervised sessions with her grandfather, and sometimes her dad, which she dreads. Left to herself, she would rather listen to music on Alexa, read Harry Potter or Keeper of the Lost Cities, draw in her favourite art diary, or play chess on Duolingo.
 
-**The bet.** Don't compete with content. Be the coach and the game layer around the child's own books, and make the reward depend on evidence of thinking, not on time spent.
+**The bet.** Stop competing with the things she loves and make them the reward. Level-Up Lab plans her portions and study time for her, and officially unlocks music, art and chess once the day's study is genuinely done, instead of the other way round.
 
 **The decisions.**
 - *The gate.* A block only counts once the child writes five takeaways, each with a concrete anchor such as a name, a year, a "because" or a key term. Vague points get gentle coaching from the creature. No pasting.
